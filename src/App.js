@@ -1,10 +1,10 @@
-import React from 'react';
+import Pomodoro from './feature/Pomodoro';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello</h2>
+      <Pomodoro />
     </div>
   );
 }
