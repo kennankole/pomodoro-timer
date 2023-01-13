@@ -1,16 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap');
+
+* {
+  font-family: 'Dosis', sans-serif;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+body {
+  background-color: #f2f2f2;
 }
 
 .App-header {
@@ -22,20 +21,48 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+section {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
+.pomo-counter {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+  padding: 5%;
+  box-shadow: 0 0 50px  #a6a6a6;
+  background-color: #ffff;
+}
 
-  50% {
-    transform: translateY(10px);
-  }
+.pomo-btn {
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
 
-  100% {
-    transform: translateY(0);
+@media only screen and (max-width: 600px) {
+  .pomo-counter {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .pomo-counter {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .pomo-counter {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .pomo-counter {
+    width: 50%;
   }
 }
