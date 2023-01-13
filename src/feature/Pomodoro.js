@@ -21,6 +21,7 @@ const Pomodoro = () => {
     return () => clearInterval(interval);
   }, [isRunning]);
 
+  // Sesssion clock
   useEffect(() => {
     if (timer === 2) {
       setSession((prevState) => prevState - 1);
@@ -28,6 +29,7 @@ const Pomodoro = () => {
     }
   }, [timer]);
 
+  // Handle Short break session
   useEffect(() => {
     if (session === 0) {
       if (shortBreak === true) {
@@ -42,6 +44,7 @@ const Pomodoro = () => {
     }
   }, [session, shortBreak]);
 
+  // Handle long break session
   useEffect(() => {
     if (pomodoros > 3) {
       if (longBreak === false) {
