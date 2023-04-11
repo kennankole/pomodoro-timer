@@ -102,8 +102,8 @@ In order to run this project you need:
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/obwombe_kennedy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kennedyomondi/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
